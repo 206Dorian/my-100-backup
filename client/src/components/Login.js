@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { useMutation } from '@apollo/client';
-import { LOGIN } from '../path/to/mutations';
+import { LOGIN } from '../utils/mutations';
 import Auth from '../utils/auth';
-import './Login.css';
+// import './Login.css';
 
 const Login = () => {
   const [email, setEmail] = useState('');
